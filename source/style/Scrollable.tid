@@ -1,0 +1,34 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Scrollable
+type: text/vnd.tiddlywiki
+
+.nc-scrollable {
+	background-color: <<color page-background>>;
+	border: 2px solid <<color muted-foreground>>;
+	border-radius: 4px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	max-height: 400px;
+	overflow: auto;
+	padding: 1em;
+	position: relative;
+}
+
+.nc-scrollable table {
+  margin: 0;
+  width: 100%;
+}
+
+.nc-scrollable th {
+	background-color: <<color background>>;
+}
+
+.nc-scrollable-index {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.nc-scrollable-index .tc-table-of-contents {
+  margin-bottom: 17px;
+  margin-top: 0px;
+}

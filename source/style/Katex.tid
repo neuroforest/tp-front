@@ -1,0 +1,22 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Katex
+type: text/vnd.tiddlywiki
+
+.katex {
+  color: <<color katex>>;
+}
+
+.katex-display {
+  background-color: <<color page-background>>;
+  border-radius: 0.5em;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+button .katex {
+  color: <<color foreground>>;
+}
+
+button:hover .katex {
+  color: <<color background>>;
+}

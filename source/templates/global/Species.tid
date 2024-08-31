@@ -1,0 +1,39 @@
+list-before: $:/core/ui/ViewTemplate/body
+tags: $:/tags/ViewTemplate
+title: $:/plugins/neuroforest/front/templates/Species
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]prefix[.bt-s ]]">
+  <table class=nc-table-dark style="width:100%;margin-bottom:0;">
+	<tr>
+	  <td align=center style="padding: 6px 6px 7px 7px;">
+        <$image source={{!!img}} height=256px class="nc-image"/>
+	  </td>
+	  <td align=left>
+      <$list filter="[all[current]has[bio.special]]">
+        <$link to={{!!bio.special}} />
+        <br><br>
+      </$list>
+      <div align="left">
+        {{||$:/plugins/neuroforest/front/templates/Translation}}
+      </div>
+      {{||$:/plugins/neuroforest/front/templates/LinkBar}}
+      <div align="left" class="tc-table-of-contents">
+        <$macrocall
+          $name=toc-selective-expandable
+          tag=<<currentTiddler>>
+          sort="prefix[.bt-]!search:title[@]!search:title[#]sort[title]"
+        />
+      </div>
+      <$list filter="[all[current]has[imgc]]">
+        <div align="left">
+          🡄 {{!!imgc}}
+        </div>
+      </$list>
+	  </td>
+	  <td align=center>
+		{{||$:/plugins/neuroforest/front/templates/Taxonomy}}
+	  </td>
+	</tr>
+  </table>
+</$list>

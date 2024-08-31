@@ -1,0 +1,8 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Taxonomy
+type: text/vnd.tiddlywiki
+
+.nc-taxonomy a {
+  border: none;
+  padding: none;
+}

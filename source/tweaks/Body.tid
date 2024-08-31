@@ -1,0 +1,16 @@
+tags: $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/body
+
+<$reveal tag="div" class="tc-tiddler-body" type="nomatch" stateTitle=<<folded-state>> text="hide" retain="yes" animate="yes">
+
+<$list filter="[all[current]!prefix[$:/]!prefix[.cp-js-fn ]!prefix[.cp-js-ob ]!field:neuro.role[list]!field:neuro.role[outline]!field:neuro.role[read]!search:neuro.role[taxon.]!field:neuro.role[journal]!search:title[ #]!prefix[.me-t]!prefix[.me-b]]">
+<div class="nc-neuro-box-wrapper" style="width:36%;float:right">
+
+{{||$:/plugins/neuroforest/front/templates/NeuroBox}}
+
+</div>
+</$list>
+
+<$transclude tiddler={{{ [<currentTiddler>] :cascade[all[shadows+tiddlers]tag[$:/tags/ViewTemplateBodyFilter]!is[draft]get[text]] :and[!is[blank]else[$:/core/ui/ViewTemplate/body/default]] }}} />
+
+</$reveal>

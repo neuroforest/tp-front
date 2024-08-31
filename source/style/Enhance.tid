@@ -1,0 +1,13 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Enhance
+type: text/vnd.tiddlywiki
+
+div.nc-enhance {
+  background-color: <<color page-background>>;
+  border-radius: 10px;
+  color: <<color strong-foreground>>;
+  display: inline-block;
+  line-height: 136%;
+  padding: 10px;
+  width: 100%;
+}

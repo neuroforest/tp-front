@@ -1,0 +1,34 @@
+title: $:/plugins/neuroforest/front/templates/Tree
+
+<$set name="objects" value={{{ [<current>has[encoding]get[encoding]removeprefix[`]removesuffix[`]addsuffix[ Objects]] }}}>
+  <div class="tc-table-of-contents nc-tree">
+    <$macrocall
+      $name="toc-selective-expandable"
+      tag=<<current>>
+      sort="neuro:branch<current>sort[title]sort[custom-sort]"
+    />
+  </div>
+  <div class="tc-table-of-contents nc-tree">
+    <$macrocall
+      $name="toc-selective-expandable"
+      tag=<<objects>>
+      sort="sort[title]sort[custom-sort]"
+    />
+  </div>
+  <div class="tc-table-of-contents nc-tree">
+    <$macrocall
+      $name="toc-selective-expandable"
+      tag=<<current>>
+      sort="sort[title]sort[custom-sort]!search:title[@]!title<objects>"
+    />
+  </div>
+  <div class="tc-table-of-contents nc-tree" style="padding-left:1em;">
+    <$set name="suffix" value={{{ [[@]addsuffix<current>] }}}>
+    <ol>
+      <$list filter="[suffix<suffix>prefix[.]]">
+        <li><$link to={{!!title}} /><br></li>
+      </$list>
+    </ol>
+    </$set>
+  </div>
+</$set>

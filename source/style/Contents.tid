@@ -1,0 +1,13 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Contents
+type: text/vnd.tiddlywiki
+
+.nc-page-controls a:hover {
+  text-decoration: none;
+}
+
+.nc-page-controls svg {
+  height: 32px;
+  margin-right: 6px;
+  width: 32px;
+}

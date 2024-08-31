@@ -1,0 +1,22 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Codemirror
+type: text/vnd.tiddlywiki
+
+.cm-s-tiddlywiki div.CodeMirror-gutters {
+	background-color: <<color background>>;
+	padding-left: 0em;
+	padding-right: 0.4em;
+}
+
+.cm-s-tiddlywiki .CodeMirror-selected  {
+  background: <<color text-selection>>;
+}
+
+.CodeMirror .CodeMirror-scroll {
+  max-height: 20em;
+  overflow: scroll;
+}
+
+div.CodeMirror {
+	font-size: 14pt;
+}

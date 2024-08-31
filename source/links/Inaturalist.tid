@@ -1,0 +1,5 @@
+custom-sort: 70
+neuro.icon: $:/plugins/neuroforest/front/images/Bird
+neuro.keyword: inat
+tags: $:/plugins/neuroforest/front/tags/LinkBar
+title: $:/plugins/neuroforest/front/links/Inaturalist

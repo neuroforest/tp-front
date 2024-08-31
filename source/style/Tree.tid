@@ -1,0 +1,13 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Tree
+type: text/vnd.tiddlywiki
+
+.nc-tree {
+  background-color: <<color page-background>>;
+  border-radius: 6px;
+  line-height: 1.3em;
+}
+
+.nc-tree a {
+  border-radius: 6px;
+}
