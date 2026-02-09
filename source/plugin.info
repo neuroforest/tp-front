@@ -1,9 +1,10 @@
 {
-	"description": "NeuroForest Front",
-	"list": "readme",
-	"name": "Neuroforest Front",
-	"source": "https://github.com/neuroforest/tw5-plugins.git",
-	"stability": "STABILITY_2_STABLE",
 	"title": "$:/plugins/neuroforest/front",
-	"version": "1.2.2"
+	"name": "Neuroforest Front",
+	"description": "NeuroForest Front",
+	"dependents": ["$:/plugins/neuroforest/core"],
+	"list": "readme",
+	"source": "https://github.com/neuroforest/tp-front.git",
+	"stability": "STABILITY_2_STABLE",
+	"version": "1.2.3"
 }
