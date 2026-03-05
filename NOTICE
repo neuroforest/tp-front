@@ -1,0 +1,106 @@
+NOTICE
+
+All file paths referenced in this document are relative to the plugin source
+directory.
+
+## Proprietary Assets
+
+The following assets are © 2018-2026 Urban Alič, All Rights Reserved:
+
+  icon.tid
+  images/favicon.ico
+  images/NeuroForest.tid
+  images/NeuroForestCentral.tid
+
+These assets are licensed for use exclusively within the NeuroForest
+platform. Any use, reproduction, modification, or distribution outside of
+NeuroForest requires explicit written permission.
+
+## Trademark Notice
+
+"NeuroForest", "NeuroWiki", and the NeuroForest logo are trademarks of
+Urban Alič. The MIT License does not grant permission to use any trade
+names, trademarks, service marks, or product names of the licensor,
+except when referring to the origin of the software.
+
+## Third-Party Images
+
+Some SVG images were sourced from third-party repositories
+(including Flaticon and SVG Repo) and were further modified. These icons are
+subject to their original licenses as noted below.
+
+  images/Bird.tid
+    Source: https://www.flaticon.com/free-icon/bird_2630452
+    Author: Vitaly Gorbachev
+    License: Flaticon Basic License (attribution required)
+
+  images/Book.tid
+    Source: https://www.flaticon.com/free-icon/book-of-black-cover-closed_32354
+    Author: Freepik
+    License: Flaticon Basic License (attribution required)
+
+  images/Bookmark.tid
+    Source: https://www.flaticon.com/free-icon/bookmark-white_25667
+    Author: Dave Gandy
+    License: Flaticon Basic License (attribution required)
+
+  images/Cloud.tid
+    Source: https://www.flaticon.com/free-icon/cloud_2929984
+    Author: Freepik
+    License: Flaticon Basic License (attribution required)
+
+  images/Code.tid
+    Source: https://www.svgrepo.com/svg/449346/code
+    Author: govicons
+    License: OFL
+
+  images/Commander.tid
+    Source: https://www.flaticon.com/free-icon/command-symbol_59130
+    Author: Freepik
+    License: Flaticon Basic License (attribution required)
+
+  images/Flysafe.tid
+    Source: https://www.svgrepo.com/svg/501142/cloud-lock
+    Author: instructure-ui
+    License: MIT
+
+  images/Instagram.tid
+    Source: https://www.svgrepo.com/svg/521711/instagram
+    Author: Konstantin Filatov
+    License: CC Attribution 4.0
+
+  images/Keyboard.tid
+    Source: https://www.flaticon.com/free-icon/keyboard_159602
+    Author: Gregor Cresnar
+    License: Flaticon Basic License (attribution required)
+
+  images/Linkedin.tid
+    Source: https://www.flaticon.com/free-icon/linkedin_3536569
+    Author: riajulislam
+    License: Flaticon Basic License (attribution required)
+
+  images/Pdf.tid
+    Source: https://www.flaticon.com/free-icon/pdf_337946
+    Author: Dimitry Miroliubov
+    License: Flaticon Basic License (attribution required)
+
+  images/Spreadsheet.tid
+    Source: https://www.flaticon.com/free-icon/cells_3602109
+    Author: Pixel perfect
+    License: Flaticon Basic License (attribution required)
+
+## Disclaimer
+
+Certain icons in images/ are either independent original works created
+by Urban Alič, or derived from third-party icons under their respective
+licenses (as noted above). In both cases, these icons exist solely for the
+functional purpose of identifying third-party services within the application's
+user interface (nominative fair use). They are not official brand assets, are
+not used for commercial promotion, do not suggest endorsement, sponsorship, or
+affiliation with any third party, and are not intended to create confusion as
+to source or origin.
+
+All third-party brand names and trademarks are the property of their
+respective owners. If any trademark holder believes their rights are being
+infringed, they may request removal by contacting the repository maintainer.
+Such assets will be promptly removed upon valid request.
