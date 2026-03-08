@@ -22,7 +22,8 @@ div.nc-neuro-box {
 }
 
 div.nc-neuro-box img.nc-image {
-  background-color: <<color foreground>>;
+  background-color: <<color neurobox-image-background>>;
+  border-radius: 4px;
   height: 100%;
   max-height: 300px;
   width: 100%;

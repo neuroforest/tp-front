@@ -118,4 +118,5 @@ toolbar-delete-button:
 toolbar-cancel-button:
 toolbar-done-button:
 untagged-background: #2d3038
+neurobox-image-background: <<color foreground>>
 very-muted-foreground: #2d3038

@@ -133,6 +133,7 @@ toolbar-delete-button:
 toolbar-cancel-button:
 toolbar-done-button:
 untagged-background: #999999
+neurobox-image-background: <<color background>>
 very-muted-foreground: #888888
 zotero-link: #e0a87e
 wikilist-button-reveal: red

@@ -123,6 +123,7 @@ toolbar-delete-button: inherit
 toolbar-cancel-button: inherit
 toolbar-done-button: inherit
 untagged-background: #2d3038
+neurobox-image-background: <<color foreground>>
 very-muted-foreground: <<color untagged-background>>
 zotero-link: #e0a87e
 wikilist-background: <<color page-background>>
