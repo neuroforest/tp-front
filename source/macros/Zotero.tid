@@ -11,7 +11,7 @@ title: $:/plugins/neuroforest/front/macros/zotero
 </$set>
 \end
 
-\define zann(item-id, locator, text:"REF", ss:"yes")
+\define zann(item-id, locator, text:"REF", ss:"no")
 <$vars item={{{ [[$item-id$]addprefix[zotero://open-pdf/library/items/]] }}} locator={{{ [[$locator$]length[]match[8]then[?annotation=]else[?page=]addsuffix[$locator$]] }}}>
 <$vars zotero-link={{{ [<item>addsuffix<locator>] }}}>
 <$vars formatted-text={{{ [[$text$]addprefix[^^]addsuffix[^^]] }}}>
