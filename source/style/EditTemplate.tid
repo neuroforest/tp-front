@@ -68,14 +68,6 @@ div.tc-type-selector-dropdown-wrapper input.tc-edit-typeeditor {
   min-width: 30ch;
 }
 
-span.tc-text-editor-toolbar-item-wrapper button {
-  margin-left: 0;
-}
-
-span.tc-text-editor-toolbar-item-wrapper button.tc-text-editor-toolbar-item-start-group {
-  margin-left: 8px;
-}
-
 .nc-neuro-id {
   color: <<color muted-foreground>>;
 }
