@@ -2,10 +2,6 @@ tags: $:/tags/Stylesheet
 title: $:/plugins/neuroforest/front/style/Other
 type: text/vnd.tiddlywiki
 
-.appear {
-  border: 1px solid <<color foreground>>;
-}
-
 .nc-expandable {
   padding-left: 1em;
   font-size: 90%;
