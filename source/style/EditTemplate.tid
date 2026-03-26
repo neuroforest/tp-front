@@ -19,6 +19,10 @@ div.tc-edit-add-tag button {
   margin: 0px 4px 0px 4px;
 }
 
+button.tc-btn-invisible.tc-remove-tag-button {
+  fill: var(--tp-remove-tag-button-color);
+}
+
 table.tc-edit-fields input.tc-edit-texteditor {
   background-color: <<color background>>;
   margin: 2px;
