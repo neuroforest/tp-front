@@ -1,7 +1,8 @@
-code-body: yes
 tags: $:/tags/Stylesheet
 title: $:/plugins/neuroforest/front/style/EditTemplate
 type: text/vnd.tiddlywiki
+
+\rules except dash
 
 .tc-editor-toolbar button.tc-selected {
   fill: <<color background>>;
