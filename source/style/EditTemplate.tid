@@ -1,3 +1,4 @@
+code-body: yes
 tags: $:/tags/Stylesheet
 title: $:/plugins/neuroforest/front/style/EditTemplate
 type: text/vnd.tiddlywiki
@@ -19,7 +20,7 @@ div.tc-edit-add-tag button {
   margin: 0px 4px 0px 4px;
 }
 
-button.tc-btn-invisible.tc-remove-tag-button {
+.tc-edit-tags button.tc-remove-tag-button svg {
   fill: var(--tp-remove-tag-button-color);
 }
 
