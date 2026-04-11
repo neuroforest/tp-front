@@ -22,5 +22,5 @@ type: text/vnd.tiddlywiki
 }
 
 div.CodeMirror {
-  font-size: 14pt;
+  font-size: 12pt;
 }
