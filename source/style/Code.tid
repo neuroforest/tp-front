@@ -1,0 +1,23 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/neuroforest/front/style/Code
+type: text/vnd.tiddlywiki
+
+code {
+  padding: 0px;
+}
+
+code.hljs {
+  border: solid 1px <<color muted-foreground>>;
+}
+
+pre.hljs, pre:has(code) {
+  overflow-x: hidden;
+}
+
+pre:has(code) {
+  padding: 0.4em;
+}
+
+pre.hljs {
+  padding: 0;
+}
