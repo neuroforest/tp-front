@@ -34,8 +34,8 @@ first-search-filter: [all[shadows+tiddlers]prefix[$:/language/Docs/Types/]sort[d
 </$set>
 </div>
 </div>
-<$set filter=" [all[current]get[draft.neuro.id]] [all[current]get[neuro.id]] +[limit[1]]" name="neuroId">
-<div class="nc-neuro-id"><<neuroId>></div>
+<$set filter=" [all[current]get[draft.nid]] [all[current]get[nid]] +[limit[1]]" name="nid">
+<div class="nc-nid"><<nid>></div>
 </$set>
 </div>
 </$set>

@@ -10,7 +10,7 @@ tags: $:/tags/ViewTemplate
 </div>
 <div style="display:flex;">
 <div class="nc-color" style=<<style>>></div>
-<div style="margin: 0em 1em;">{{!!neuro.id}}</div>
+<div style="margin: 0em 1em;">{{!!nid}}</div>
 <div class="nc-color" style=<<style>>></div>
 </div>
 </$reveal>

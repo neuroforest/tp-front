@@ -74,6 +74,6 @@ div.tc-type-selector-dropdown-wrapper input.tc-edit-typeeditor {
   min-width: 30ch;
 }
 
-.nc-neuro-id {
+.nc-nid {
   color: <<color muted-foreground>>;
 }
